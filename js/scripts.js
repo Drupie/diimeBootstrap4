@@ -6,7 +6,7 @@
 //
 // Scripts
 // 
-
+var image=document.getElementById("image");
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -17,8 +17,10 @@ window.addEventListener('DOMContentLoaded', event => {
         }
         if (window.scrollY === 0) {
             navbarCollapsible.classList.remove('navbar-shrink')
+            image.className="img";
         } else {
             navbarCollapsible.classList.add('navbar-shrink')
+            image.className="img imgVisible";
         }
 
     };
