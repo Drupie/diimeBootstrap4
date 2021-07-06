@@ -1,6 +1,6 @@
 <?php
 
-
+// insert de php
 $nombre=$_POST['nombre'];
 $correo=$_POST['correo'];
 $tel=$_POST['tel'];
